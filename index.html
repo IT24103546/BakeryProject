@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Order</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Order Your Custom Cake</h1>
+    <form id="orderForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="flavor">Cake Flavor:</label>
+        <select id="flavor">
+            <option>Chocolate</option>
+            <option>Vanilla</option>
+            <option>Red Velvet</option>
+            <option>Strawberry</option>
+        </select>
+
+        <label for="size">Cake Size:</label>
+        <select id="size">
+            <option>Small (6")</option>
+            <option>Medium (8")</option>
+            <option>Large (10")</option>
+        </select>
+
+        <label for="message">Custom Message:</label>
+        <input type="text" id="message" placeholder="Happy Birthday!">
+
+        <label for="deliveryDate">Delivery Date:</label>
+        <input type="date" id="deliveryDate" required>
+
+        <label for="contact">Phone Number:</label>
+        <input type="tel" id="contact" required>
+
+        <button type="submit">Place Order</button>
+    </form>
+</div>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
